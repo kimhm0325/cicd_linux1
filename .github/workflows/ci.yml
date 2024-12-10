@@ -32,7 +32,7 @@ jobs:
              password: ${{ secrets.DOCKERHUB_TOKEN}}
 
       - name: Build Dokcer image
-        run: docker build -t khm0325/khm .
+        run: docker build -t kskk0325/khm0325 .
  
       - name: Psuh docker image
-        run: docker push khm0325/khm
+        run: docker push kskk0325/khm0325
